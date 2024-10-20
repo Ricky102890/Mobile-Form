@@ -1,0 +1,23 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    max-width: 375px;
+    height: auto;
+    background: white;
+}
+:root {
+    --nav_clr_darkPurple: #4b01d1;
+    --nav_clr_lightPurple: #6202ee;
+    --nav_clr_palePurple: #d7b7fd;
+    --input_clr_gray: #e8e8e8;
+    --input_font_clr_gray: #616161;
+    --input_font_clr_lightGray: #828282;
+}
