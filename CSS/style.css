@@ -1,0 +1,139 @@
+.nav-icon-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: auto;
+    background: var(--nav_clr_darkPurple);
+    margin-right: 0;
+    margin-left: auto;
+    padding: .3rem;
+}
+.navbar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+}
+.hamburger-wrapper {
+    width: 10%;
+    margin-right: 2rem;
+}
+.hamburger-wrapper .img-wrapper {
+    width: 100%;
+    height: auto;
+}
+.hamburger-wrapper .img-wrapper img {
+    width: 24px;
+    height: auto;
+    fill: white;
+}
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    letter-spacing: .05em;
+    font-size: 1.5rem;
+    margin-right: auto;
+}
+.nav-controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icon-wrapper {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 6px;
+}
+.icon-wrapper img {
+    width: .85rem;
+    height: .85rem;
+}
+.cir {
+    width: 5px;
+    height: 5px;
+}
+.tri {
+    transform: rotate(180deg);
+}
+.control-item {
+
+}
+.control-item button {
+    border: none;
+    background: transparent;
+    margin-right: 1rem;
+}
+.control-item img {
+    width: 1.5rem;
+    height: auto;
+}
+form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.form-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+.form-section label {
+    padding: 0;
+    margin-right: .75rem;
+}
+.form-section label img {
+    width: 1.5rem;
+    height: auto;
+}
+.form-section input {
+    width: 100%;
+    height: 60px;
+    border: 2px solid gray;
+    border-radius: 4px 4px 0 0;
+    padding: 1rem;
+    font-size: 1.15rem;
+    margin: auto 1rem;
+}
+.form-section select {
+    height: 60px;
+    border: 2px solid gray;
+}
+.first {
+    background-color: #e2e0e0;
+    border: none;
+    border-bottom: 1.5px solid gray;
+}
+.second {
+    background-color: white;
+    border: 1px solid gray;
+}
+#city {
+    width: 50%;
+    height: auto;
+}
+.label-style {
+    border-radius: 4px 4px 0 0;
+    padding: 1rem .5rem;
+    border: 1px solid #616161;
+    color: #696969;
+    font-size: 1.15rem;
+    margin: auto;
+}

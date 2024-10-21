@@ -9,7 +9,6 @@ html {
 
 body {
     width: 100%;
-    max-width: 375px;
     height: auto;
     background: white;
 }
@@ -20,4 +19,9 @@ body {
     --input_clr_gray: #e8e8e8;
     --input_font_clr_gray: #616161;
     --input_font_clr_lightGray: #828282;
+}
+nav {
+    height: 90px;
+    background-color: var(--nav_clr_lightPurple);
+    box-shadow: 0px 2px 12px gray;
 }

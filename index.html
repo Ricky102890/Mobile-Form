@@ -4,67 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mobile Form</title>
+    <link rel="stylesheet" href="/CSS/default.css">
+    <link rel="stylesheet" href="/CSS/style.css">
 </head>
 <body>
     <nav>
         <div class="nav-icon-wrapper">
             <div class="icon-wrapper">
-                <img src="#" alt="#">
+                <img src="/IMAGES/9023988_square_fill_icon.png" class="sq" alt="#">
             </div>
             <div class="icon-wrapper">
-                <img src="#" alt="#">
+                <img src="/IMAGES/8541742_circle_icon.png" class="cir" alt="#">
             </div>
             <div class="icon-wrapper">
-                <img src="#" alt="#">
+                <img src="/IMAGES/9035043_triangle_icon.png" class="tri" alt="#">
             </div>
         </div>
 
         <div class="navbar">
             <div class="hamburger-wrapper">
-                <span></span>
-                <span></span>
-                <span></span>
+                <div class="img-wrapper">
+                    <img src="/IMAGES/hamburger.png" alt="Hamburger Menu">
+                </div>
             </div>
             <a href="#">Contacts</a>
             <div class="nav-controls">
                 <div class="control-item">
-                    <button><img src="#" alt="#"></button>
+                    <button><img src="/IMAGES/9035096_search_icon.png" alt="#"></button>
                 </div>
                 <div class="control-item">
-                    <button><img src="#" alt="#"></button>
+                    <button><img src="/IMAGES/3671684_three dots_icon.png" alt="#"></button>
                 </div>
             </div>
         </div>
     </nav>
     <form action="#">
-        <label for="#"><img src="#" alt="#"></label>
-        <input type="text" placeholder="Name" class="first">
-        <br>
-        <label for="#"><img src="#" alt="#"></label>
-        <input type="tel" placeholder="Phone Number" class="second">
-        <select name="label" id="phoneLabel" class="second">
-            <option value="label" selected>Label</option>
-        </select>
-        <br>
-        <label for="#"><img src="#" alt="#"></label>
-        <input type="text" placeholder="Address" class="first">
-        <br>
-        <input type="text" placeholder="City" class="first">
-        <br>
-        <select name="state" id="stateLabel">
-            <option value="state" selected>State</option>
-        </select>
-        <input type="text">
-        <br>
-        <label for="#"><img src="#" alt="#"></label>
-        <input type="email" placeholder="Email" class="second">
-        <br>
-        <label for="#"><img src="#" alt="#"></label>
-        <div class="birthday-wrapper">
-            <input type="date" placeholder="Birthday">
-            <div class="img-wrapper">
-                <img src="#" alt="#">
-            </div>
+        <div class="form-section">
+            <label for="#"><img src="/IMAGES/profile.png" alt="#"></label>
+            <input type="text" placeholder="Name" class="first">
+        </div>
+        <div class="form-section">
+            <label for="#"><img src="/IMAGES/phone.png" alt="#"></label>
+            <input type="tel" placeholder="Phone Number" class="second">
+            <select name="label" id="phoneLabel" class="second label-style">
+                <option value="label" selected>Label</option>
+            </select>
+        </div>
+        <div class="form-section">
+            <label for="#"><img src="/IMAGES/map.png" alt="#"></label>
+            <input type="text" placeholder="Address" class="first">
+        </div>
+        <div class="form-section">
+            <input type="text" placeholder="City" class="second" id="city">
+        </div>
+        <div class="form-section">
+            <select name="state" id="stateLabel" class="label-style first">
+                <option value="state" selected>State</option>
+            </select>
+            <input type="text" placeholder="Zip" class="first">
+        </div>
+        <div class="form-section">
+            <label for="#"><img src="/IMAGES/email.png" alt="#"></label>
+            <input type="email" placeholder="Email" class="second">
+        </div>
+        <div class="form-section">
+            <label for="#"><img src="/IMAGES/cake.png" alt="#"></label>
+                <input type="date" placeholder="Birthday" class="first">
         </div>
     </form>
 </body>
